@@ -1,0 +1,12 @@
+{
+  "math_repo": "../math",
+  "indexes": {
+    "families": "data/processed/families.sqlite",
+    "fts": "data/processed/search.sqlite"
+  },
+  "study_output_dir": "data/processed/study-packs",
+  "embeddings": {
+    "backend": "tfidf",
+    "optional_model": "all-MiniLM-L6-v2"
+  }
+}

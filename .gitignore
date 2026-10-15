@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+data/indexes/*.sqlite
+data/processed/*.sqlite
+.pytest_cache/
+/dist/
+/build/
+*.egg-info/
+.DS_Store
+Thumbs.db
+
+# derived local state
+data/
