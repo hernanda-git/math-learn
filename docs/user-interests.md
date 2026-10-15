@@ -11,6 +11,8 @@ The user wants to deep dive and eventually solve problems across:
 - gravity
 - electromagnetism and Coulomb physics
 - thermodynamics
+- negative energy and backreaction
+- zero-point energy and vacuum effects
 - space and time / spacetime
 - quantum matter and quantum computation
 
@@ -26,6 +28,21 @@ For each selected family, the goal is:
 6. only mark understanding after source-level and, when possible, Lean verification.
 
 ## Suggested starting buckets
+### Negative energy, zero-point energy, and vacuum effects
+
+No family is literally about negative-energy engines or zero-point energy devices. The nearest mathematical entries are quantum field, Coulomb, matrix-model, and conformal-net results:
+
+- `263` Ionization and generalized ionization conjectures
+- `267` Positive-temperature Bose–Einstein condensation
+- `270` BFSS threshold and positive-energy bound states
+- `273` Entropy photon-number inequality
+- `275` QMA-hardness of continuum Coulomb energy
+- `278` Failure of Kohn–Sham ensemble representation
+- `280` Unitary vertex operator algebras and conformal nets
+- `282` From scale symmetry to local conformal symmetry in four-dimensional QFT
+
+These are mathematical building blocks, not device-physics proofs.
+
 
 ### Gravity and space-time
 
