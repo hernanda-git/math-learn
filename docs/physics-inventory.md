@@ -172,7 +172,7 @@ Status labels: `declassified`, `FOIA-released`, `official/public`, `published`. 
 
 ### Vacuum, zero-point & negative energy
 - **Casimir 1948** (Proc. KNAW 51, 793); **Sparnaay 1958** (first attempt, ~no confirmation); **Lamoreaux PRL 78, 5 (1997)** (~5% agreement); **Mohideen–Roy PRL 81, 4549 (1998)**. `published`.
-- **Lamb–Retherford 1947** + Welton 1948; **Hawking 1974/75** (negative-energy flux interpretation); **Ford–Roman PRD 51, 4277 (1995)** + PRD 55, 2080 (1997); **Pfenning–Ford CQG 14, 1743 (1997)**; **Jaffe PRD 72, 021301 (2005)**. `published`.
+- **Lamb–Retherford 1947** + Welton 1948; **Hawking 1974/75** (negative-energy flux interpretation); **Ford–Roman PRD 51, 4277 (1995)** + PRD 55, 2082 (1997); **Pfenning–Ford CQG 14, 1743 (1997)**; **Jaffe PRD 72, 021301 (2005)**. `published`.
 - **DIA-08-1004-007, "Concepts for Extracting Energy From the Quantum Vacuum" (2010)** — FOIA-released DIRD; reviews Casimir/ZPF extraction proposals and its own text states none has been demonstrated and that Forward's cycle loses energy (thermodynamic failure). DIA FOIA FileId/170031; mirrored in the Black Vault DIRD set. `FOIA-released`.
 - **AAWSAP DIRD series (38 docs, 2009–11)** — incl. DIRD_18 (wormholes/negative energy), DIRD_19 (antigravity survey), DIRD_29 (negative mass propulsion), DIRD_36 (negative-energy tomography). Speculative literature surveys. `FOIA-released`.
 - **CIA release: "Zero-point energy" (Intellipedia), FOIA Case 78752A (2014)** — encyclopedic note, no research findings. `FOIA-released`.
@@ -223,4 +223,4 @@ Consolidated; each was searched, not assumed.
 - **DIA FOIA reading room / Black Vault DIRD sets** — `dia.mil` FOIA (HTTP 403 to bots; mirrors at the Black Vault).
 - **Affiliated raw evidence for this doc** — `data/processed/work/research/archives-{fusion-energy,gravity-propulsion,vacuum-zeropoint,em-quantum}.md`.
 
-Footer: compiled 2026-10-16 from the verified research artifacts above + standard textbook physics (layers 1–2). Anything not backed by a checked source is out of scope by construction; corrections go through the same critic-verify loop as the study packs.
+Footer: compiled 2026-10-16 from the verified research artifacts above + standard textbook physics (layers 1–2). Anything not backed by a checked source is out of scope by construction; corrections go through the same critic-verify loop as the study packs. Acquired source corpus (105 PDFs + 23 HTML pages, ≈670 MB): index in `source-manifest.md`, files under `data/sources/`.
