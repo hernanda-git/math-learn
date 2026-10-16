@@ -46,11 +46,17 @@ def cmd_search(args: argparse.Namespace) -> int:
 
 def cmd_study(args: argparse.Namespace) -> int:
     config = load_config(args.config)
+    out_dir = Path(config["study_output_dir"]).resolve()
+    out_path = out_dir / f"family-{args.family}.md"
+    if out_path.exists() and not args.force:
+        existing = out_path.read_text(encoding="utf-8")
+        if "## To learn (agent pipeline)" not in existing:
+            print(f"{out_path} is a checked study pack, not a catalog stub; refusing to overwrite.")
+            print("Use --force to regenerate the catalog stub.")
+            return 1
     db_path = Path(config["indexes"]["families"]).resolve()
     text = render_study(args.family, db_path)
-    out_dir = Path(config["study_output_dir"]).resolve()
     out_dir.mkdir(parents=True, exist_ok=True)
-    out_path = out_dir / f"family-{args.family}.md"
     out_path.write_text(text, encoding="utf-8")
     print(f"Wrote {out_path}")
     return 0
@@ -73,6 +79,8 @@ def main(argv: list[str] | None = None) -> int:
 
     p_study = sub.add_parser("study")
     p_study.add_argument("family")
+    p_study.add_argument("--force", action="store_true",
+                         help="overwrite an existing checked study pack with the catalog stub")
     p_study.set_defaults(func=cmd_study)
 
     args = parser.parse_args(argv)
