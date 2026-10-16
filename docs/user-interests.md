@@ -2,7 +2,7 @@
 
 This repository is being used as a learning system for the `openai/math` collection.
 
-Companion documents: `physics-inventory.md` (laws & formulas, landmark papers, the full physics family slice, verified declassified/official archives, and legends-vs-documents) and `family-list.md` (all 372 families).
+Companion documents: `physics-inventory.md` (laws & formulas, landmark papers, the full physics family slice, verified declassified/official archives, and legends-vs-documents), `physics-checklist.md` (the same content as a tickable master list), and `family-list.md` (all 372 families).
 
 ## Primary interests
 
